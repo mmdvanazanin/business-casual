@@ -1,0 +1,144 @@
+
+/* github.com/mmdvanazanin */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+    font-size: 35px;
+    color: orange;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+.b{
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 370px;
+}
+.c{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    border: 1px solid #78290f;
+    background-color: #78290f; opacity: 0.9;
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    height: 90px;
+}
+.c a{
+    text-decoration: none;
+    color: white;
+}
+.c a:hover{
+    color: burlywood;
+}
+.c ul{
+    list-style: none;
+    position: absolute;
+    top: 35px;
+}
+.c ul, li{
+    display: inline-block;
+}
+.c ul,li :nth-child(1){
+    text-indent: 160px; /*160px soldan yazmasi ucun*/
+}
+.d{
+    width: 700px;
+    height: 460px;
+    position: absolute;
+    top: 460px;
+    left: 500px;
+}
+.e{
+    background-color: #FFF8DC;
+    border-radius: 2%;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 540px;
+    left: 180px;
+}
+.f{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;    
+}
+.g{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.h{
+    font-size: 18px;
+    text-align: center;
+    color: darkslategrey;
+    margin-inline: 15px;
+}
+.a1{
+    background-color: #CD7F32;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 2%;
+    position: absolute;
+    top: 810px;
+    left: 320px;
+    cursor: pointer;
+}
+.a1 a{
+   color: rgb(66, 63, 63);
+   text-decoration: none;
+}
+.a2{
+    width: 100%;
+    height: 500px;
+    background-color: #CD7F32; opacity: 0.9;
+    position: absolute;
+    top: 1100px;
+}
+.a3{
+    background-color: whitesmoke;
+    width: 55%;
+    height: 300px;
+    border-radius: 2%;
+    outline-style: ridge;
+    outline-offset: 3px;
+    position: absolute;
+    top: 1200px;
+    left: 330px;
+    padding-inline: 30px;
+    padding-top: 60px;
+}
+.b1{
+    text-align: center;
+    font-size: large;
+}
+.b2{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.b3{
+    font-size: 18px;
+    text-align: center;
+    color: dimgray;
+}
+.c1{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #78290f;
+    background-color: #78290f; opacity: 0.9;
+    position: absolute;
+    top: 1700px;
+    color: beige;
+    font-size: 15px;
+    text-align: center;
+}
